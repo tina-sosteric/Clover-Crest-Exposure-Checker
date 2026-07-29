@@ -16,9 +16,7 @@ cybersecurity fundamentals (Pre Security and Cybersecurity 101 paths).
 
 ## 🎬 Interactive Walkthrough
 
-**[▶ View the incident simulation](#)**
-*(link goes live once published to GitHub Pages — see
-[Publishing the Simulation](#publishing-the-simulation) below)*
+**[▶ View the incident simulation](https://tina-sosteric.github.io/Clover-Crest-Exposure-Checker/CloverCrest-Security-Incident-Simulation.html)**
 
 Steps through the scenario stage by stage, using the real numbers this
 project's code actually produced.
