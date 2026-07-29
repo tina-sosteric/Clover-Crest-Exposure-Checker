@@ -232,6 +232,14 @@ The interactive HTML walkthrough can be published for free with
   real security teams don't wait for an incident to reveal that
   passwords are weak; they check proactively
 
+## Ethical Use
+
+This project uses John the Ripper against passwords I generated myself,
+on data I own, for educational purposes. It does not target, access,
+or attempt to crack any real accounts, systems, or credentials
+belonging to anyone else. If you use this code, only run it against
+data and systems you own or are explicitly authorized to test.
+
 ## About Me
 
 I'm a fraud investigator learning Python and cybersecurity
@@ -240,7 +248,3 @@ verify → score → report pattern in this project mirrors the same logic
 used in fraud and account-risk workflows — applied here to password
 data instead of transactions.
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/) — use it, review it,
-learn from it.
