@@ -15,7 +15,7 @@ cybersecurity fundamentals (Pre Security and Cybersecurity 101 paths).
 
 ## 🎬 Interactive Walkthrough
 
-**[▶ View the incident simulation](https://tina-sosteric.github.io/Credential-Exposure-Checker/)**
+**[▶ View the incident simulation](https://tina-sosteric.github.io/Credential-Exposure-Checker/Security-Incident-Simulation.html)**
 
 Steps through the scenario stage by stage, using the real numbers this
 project's code actually produced.
