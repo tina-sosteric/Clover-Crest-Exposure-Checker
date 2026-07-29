@@ -1,0 +1,10 @@
+austin.pearson@clovercrest.test: CRITICAL
+jacqueline.mathis@clovercrest.test: CRITICAL
+kenneth.collins@clovercrest.test: CRITICAL
+brandi.marks@clovercrest.test: MODERATE
+bradley.lynn@clovercrest.test: MODERATE
+
+ The following accounts need forced reset:
+austin.pearson@clovercrest.test
+jacqueline.mathis@clovercrest.test
+kenneth.collins@clovercrest.test
