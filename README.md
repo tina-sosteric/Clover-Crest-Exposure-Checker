@@ -1,7 +1,6 @@
 # Clover & Crest Credential Exposure Checker
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-learning%20project-orange)
 
 My first Python project: a tool that checks which employees at a
@@ -35,7 +34,6 @@ project's code actually produced.
 - [Scope and Limitations](#scope-and-limitations)
 - [Technical Choices](#technical-choices)
 - [About Me](#about-me)
-- [License](#license)
 
 ## Background
 
