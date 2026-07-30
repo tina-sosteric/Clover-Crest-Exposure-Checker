@@ -30,7 +30,6 @@ project's code actually produced.
 - [Concepts](#concepts)
 - [Sample Output](#sample-output)
 - [Run the Project](#run-the-project)
-- [Publishing the Simulation](#publishing-the-simulation)
 - [Scope and Limitations](#scope-and-limitations)
 - [Technical Choices](#technical-choices)
 - [About Me](#about-me)
@@ -112,7 +111,7 @@ generate fake employees & leaked dump (test_data.py)
   Dropbox
 - **Faker** — generating realistic but non-identifying synthetic test
   data
-- **John the Ripper** — a real, free password-auditing tool
+- **John the Ripper** — a real, free password cracking tool
 
 ## Sample Output
 
@@ -145,7 +144,7 @@ From the John the Ripper audit, run independently of the leak:
 37 out of 50 employee password hashes cracked using a common wordlist.
 ```
 
-37 out of 50 — higher than I expected, even having picked half of those
+37 out of 50 — higher than I expected, even having picked many of those
 passwords myself.
 
 ## Run the Project
@@ -195,16 +194,6 @@ will still point at the old core version if both are installed:
 ~/john-jumbo/run/john --show --format=Raw-SHA256 internal_hashes.txt > jtr_results.txt
 ```
 
-## Publishing the Simulation
-
-The interactive HTML walkthrough can be published for free with
-**GitHub Pages**:
-1. Push this repo to GitHub
-2. **Settings → Pages** → set source to your main branch
-3. It'll go live at:
-   `https://yourusername.github.io/repo-name/CloverCrest_Security_Incident_Simulation.html`
-4. Update the link at the top of this README with that URL
-
 ## Scope and Limitations
 
 - All data is entirely synthetic — no real people, no real company, no
@@ -218,7 +207,7 @@ The interactive HTML walkthrough can be published for free with
 ## Technical Choices
 
 - **Hashing instead of comparing plaintext** — reflects how real systems
-  actually store passwords
+  store passwords
 - **Separating data generation from the tool** (`test_data.py` vs.
   `exposure_check.py`) — a real security tool doesn't generate its own
   test data as part of normal operation, so keeping them apart felt
